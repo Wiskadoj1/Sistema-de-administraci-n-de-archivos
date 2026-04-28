@@ -1,0 +1,229 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 2px solid rgb(199, 85, 233);
+	box-sizing: border-box;
+}
+:root {
+	--color-primario: #6ebf6e;
+	--color-secundario: #f01d3c;
+	--color-fondo: #6ebf6ec7;
+	--color-texto: #000000;
+	--color-resaltado: #5b1dcf;
+	--fuente-principal: Georgia, "Times New Roman", Times, serif;
+	--fuente-secundaria: "Courier New", Courier, monospace;
+	--fuente-terciaria: Geneva, Arial, Helvetica, sans-serif;
+}
+label {
+	margin-bottom: 10px;
+	margin-top: 5px;
+	color: var(--color-texto);
+}
+#mensaje {
+	font-family: var(--fuente-principal);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	margin: 10px auto;
+	padding: 15px auto;
+	width: 100px auto;
+	background-color: rgba(250, 24, 24, 0.74);
+}
+#logo {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto 20px;
+	margin-top: 20px;
+	border-radius: 20px;
+}
+h1 {
+	font-family: var(--fuente-principal);
+	font-size: 36px;
+	font-style: italic;
+	font-weight: bold;
+	color: #5b1dcf;
+	text-decoration: underline;
+	margin-bottom: 20px;
+}
+h2 {
+	font-family: var(--fuente-secundaria);
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bold;
+	color: #f01d3c;
+	text-decoration: underline;
+}
+p {
+	font-family: var(--fuente-secundaria);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000000;
+}
+body {
+	background-color: var(--color-fondo);
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.listas {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bolder;
+	font-variant: small-caps;
+	color: #000000;
+	text-decoration: underline;
+}
+.eslogan {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bolder;
+	font-variant: normal;
+	color: #000000;
+	text-decoration: underline;
+}
+.resaltadomay {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: bolder;
+	font-variant: small-caps;
+	text-transform: uppercase;
+	color: #000000;
+	text-decoration: underline;
+}
+.quejas {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-transform: uppercase;
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+.formulario {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-style: oblique;
+	line-height: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.formularioCampo {
+	outline: none;
+	border-bottom: 1px solid #000000;
+	transition: all 300ms ease-in-out;
+}
+
+.formularioCampo:focus {
+	border-bottom: 1px solid #000000;
+	box-shadow: 0 0 5px rgba(255, 0, 0, 0.5);
+	border-radius: 30px;
+}
+
+.formularioContenedor{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding: 10px;
+	min-width: 500px;
+	max-width: 95dvw;
+	border-radius: 8px;
+	box-shadow: -1px 10px 5px 3px rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+	justify-content: center;
+}
+.btnFormulario {
+	margin-top: 7px;
+}
+#btnIngresar{
+    padding:14px;
+    border: none;
+    background: #b301ff;
+    color: white;
+    cursor: pointer;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    transition: 0.3s;
+}
+#btnIngresar:hover{
+    background: #e53c3c;
+}
+#formularioInicio {
+	background-color: rgba(28, 181, 247, 0.5);
+	width: 100px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+}
+.formularior {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bolder;
+	font-variant: small-caps;
+	color: #000000;
+	text-decoration: underline;
+}
+.titulosr {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-decoration: underline;
+}
+.resaltadosr {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.procedimiento1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+.subresaltados1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	font-variant: normal;
+	text-decoration: underline;
+}
+.subresaltados2 {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.procedimiento2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: normal;
+	font-variant: normal;
+}
+
+.titulos2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-decoration: underline;
+}
