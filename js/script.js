@@ -8,8 +8,9 @@ function login(){
     let contra = document.querySelectorAll('.formularioCampo')[1].value;
 
     if(usuario =="admin" && contra == "123"){ 
-        divMensaje.innerHTML = "Bienvenido al sistema" + usuario;
+        localStorage.setItem("usuario", usuario);
         window.location.href = "/pages/principal.html"
+        divMensaje.innerHTML = "Bienvenido al sistema" + usuario;
     }else{
         divMensaje.innerHTML = "Saquese de aqui " + usuario;
     }
