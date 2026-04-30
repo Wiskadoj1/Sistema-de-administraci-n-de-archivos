@@ -227,3 +227,19 @@ body {
 	font-variant: small-caps;
 	text-decoration: underline;
 }
+#btnSalir{
+    padding:12px;
+    border: none;
+    background: #5b1dcf;
+    color: rgb(246, 232, 232);
+    cursor: pointer;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    transition: 0.3s;
+	text-decoration: none;
+    align-self: center;
+}
+#btnSalir:hover{
+    background: #3f1499;
+}
