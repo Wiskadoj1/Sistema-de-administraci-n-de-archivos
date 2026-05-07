@@ -9,7 +9,7 @@ function login(){
 
     if(usuario =="admin" && contra == "123"){ 
         localStorage.setItem("usuario", usuario);
-        window.location.href = "/pages/principal.html"
+        window.location.href = "./pages/principal.html"
         divMensaje.innerHTML = "Bienvenido al sistema" + usuario;
     }else{
         divMensaje.innerHTML = "Saquese de aqui " + usuario;
